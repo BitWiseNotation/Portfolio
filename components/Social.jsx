@@ -4,12 +4,11 @@ import {FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaInstagram, FaFacebook} f
 
 
 const socials = [
-    {icon: <FaGithub/>, path: ''},
-    {icon: <FaLinkedinIn/>, path: ''},
-    {icon: <FaYoutube/>, path: ''},
-    {icon: <FaTwitter/>, path: ''},
-    {icon: <FaFacebook/>, path: ''},
-    {icon: <FaInstagram/>, path: ''},
+    {icon: <FaGithub/>, path: 'https://github.com/BitWiseNotation'},
+    {icon: <FaLinkedinIn/>, path: 'https://www.linkedin.com/in/yudhvirsingh1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},
+    {icon: <FaTwitter/>, path: 'https://x.com/Notviperoxide'},
+    {icon: <FaFacebook/>, path: 'https://www.facebook.com/profile.php?id=61573967510693'},
+    {icon: <FaInstagram/>, path: 'https://www.instagram.com/yudhvirsingh_04/'},
 ]
 
 const Social =({ containerStyles, iconStyles})=>{
