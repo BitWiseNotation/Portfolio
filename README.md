@@ -5,7 +5,7 @@ This site showcases who I am, what I do, and the projects I've built. It include
 
 ## 🌐 Live Website
 
-[Visit Portfolio](https://your-live-site-link.com) <!-- Replace with your actual link -->
+[Visit Portfolio]() 
 
 ## ✨ Features
 
@@ -27,6 +27,7 @@ This site showcases who I am, what I do, and the projects I've built. It include
 ## 📁 Project Structure (Simplified)
 
 
+
 ## 📬 Contact
 
 Feel free to reach out through the contact form or connect with me on:
@@ -43,3 +44,4 @@ This project is open-source and available under the [MIT License](#license).
 
 You’re welcome to explore the code, but please do not use it for commercial purposes without permission.
 git a
+
