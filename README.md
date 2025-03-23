@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yudhvir Singh - Developer Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio website! 🚀  
+This site showcases who I am, what I do, and the projects I've built. It includes my experience in web development, software engineering, backend/server management, automation scripting, hardware support, and design.
 
-First, run the development server:
+## 🌐 Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Visit Portfolio](https://your-live-site-link.com) <!-- Replace with your actual link -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Fully responsive and mobile-friendly
+- Built with **Next.js**, **React**, and **Tailwind CSS**
+- Smooth animations using **Framer Motion**
+- Reusable UI components (shadcn/ui)
+- Dynamic content loading and scroll effects
+- Contact form with validation
+- SEO-optimized and ready for deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Frontend:** Next.js, React, Tailwind CSS, shadcn/ui
+- **Animations:** Framer Motion
+- **Icons:** React Icons
+- **Deployment:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure (Simplified)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+Feel free to reach out through the contact form or connect with me on:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📧 Email: bitwisenotation@gmail.com  
+- 💼 LinkedIn: [https://www.linkedin.com/in/yudhvirsingh1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]  
+- 📷 Instagram: @YudhvirSingh_04
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is open-source and available under the [MIT License](#license).
+
+## 📌 Note
+
+You’re welcome to explore the code, but please do not use it for commercial purposes without permission.
+git a
