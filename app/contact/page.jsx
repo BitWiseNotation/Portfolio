@@ -5,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { toast } from 'sonner';
+
 
 import { 
     Select, 
@@ -59,23 +61,31 @@ const Contact = () => {
     };
   
     const handleSubmit = async (e) => {
-
-      e.preventDefault();
-  
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      });
-  
-      if (res.ok) {
-        alert('Message sent!');
-        setForm({ firstname: '', lastname: '', email: '', phone: '', service: '', message: '' });
-      } else {
-        alert('Something went wrong. Try again.');
-      }
-    };
-  
+        e.preventDefault();
+      
+        const toastId = toast.loading('Sending message...');
+      
+        try {
+          const res = await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(form),
+          });
+      
+          toast.dismiss(toastId); // 💥 hide the loading toast
+      
+          if (res.ok) {
+            toast.success('Message sent!');
+            setForm({ firstname: '', lastname: '', email: '', phone: '', service: '', message: '' });
+          } else {
+            toast.error('Something went wrong. Try again.');
+          }
+        } catch (err) {
+          toast.dismiss(toastId);
+          toast.error('Error connecting to server.');
+        }
+      };      
+      
     return (
       <motion.section
         initial={{ opacity: 0 }}

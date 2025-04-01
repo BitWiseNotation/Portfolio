@@ -6,6 +6,7 @@ import Header from "@/components/Header"
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 import { Analytics } from "@vercel/analytics/react";
+import { Toaster } from 'sonner';
 
 const jetBrainsMono = JetBrains_Mono({
   src: "./next/font/google",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
+        <Toaster richColors position="top-right" />
         <Analytics />
       </body>
     </html>
