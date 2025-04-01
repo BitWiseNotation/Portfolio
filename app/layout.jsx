@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header"
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 const jetBrainsMono = JetBrains_Mono({
   src: "./next/font/google",
